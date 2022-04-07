@@ -11,10 +11,14 @@
 
 
 ## How to run app?
-### Run the clientApp file and then route to different address for each prediction mentioned below.
+
+### 1. Download the model_final.pth file and replace model_final.txt file with the model_final.pth : <a href=" https://drive.google.com/file/d/1--tWzjhet-QHQTmvwHZuq68T4W-98Uyv/view?usp=sharing">model_final.pth</a><br/>
+
+### 2. Run requirements.txt 
+### 3. Run the clientApp file and then route to different address for each prediction mentioned below.
 <br/><br/>
 
-### Note:  Number added to the top left of each image repesent the time taken  for prediction for each ROI.
+### Note:  Number added to the top left of each image represent the time taken  for prediction for each ROI.
 <br/><br/>
 
 ## 1. Full Image Prediction
