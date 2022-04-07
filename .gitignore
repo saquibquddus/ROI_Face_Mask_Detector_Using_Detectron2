@@ -134,3 +134,4 @@ dmypy.json
 .vscode/
 .idea/
 model_final.pth
+cropped_images

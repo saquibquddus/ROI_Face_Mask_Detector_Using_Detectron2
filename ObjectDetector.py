@@ -117,11 +117,24 @@ class Detector:
 		total_seconds=(end-start).total_seconds()
 		cv.putText(img=im_rgb, text=str(total_seconds),org=(0 + int(width/12),0 + int(length/10)), fontFace=cv.FONT_HERSHEY_DUPLEX, fontScale=1, color=(255,255,255), thickness=2)
 		cv.imwrite('output_image.jpg', im_rgb)
-		
+
+		if cropped=="LHR":
+			cv.imwrite('output_images/LHR.jpg', im_rgb)
+		elif cropped=="RHR":
+			cv.imwrite('output_images/RHR.jpg', im_rgb)
+		elif cropped=="THR":
+			cv.imwrite('output_images/THR.jpg', im_rgb)
+		elif cropped=="BHR":
+			cv.imwrite('output_images/BHR.jpg', im_rgb)
+		elif cropped=="MR":
+			cv.imwrite('output_images/MR.jpg', im_rgb)
+		elif cropped=="BCR":
+			cv.imwrite('output_images/BCR.jpg', im_rgb)
+		else:
+			cv.imwrite('output_images/full_image.jpg', im_rgb)
+
 		opencodedbase64 = encodeImageIntoBase64("output_image.jpg")
-		
 		result = {"image" : opencodedbase64.decode('utf-8') }
-		
 		print("time_difference = ",(end-start).total_seconds()," sec")
 		return result
 
