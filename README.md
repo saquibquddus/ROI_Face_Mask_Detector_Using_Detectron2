@@ -12,7 +12,7 @@
 
 ## How to run app?
 
-### 1. Download the model_final.pth file and replace model_final.txt file with the model_final.pth : <a href="https://drive.google.com/file/d/1--tWzjhet-QHQTmvwHZuq68T4W-98Uyv/view?usp=sharing"></a><br/>
+### 1. Download the model_final.pth file and replace model_final.txt file with the model_final.pth : <a href="https://drive.google.com/file/d/1--tWzjhet-QHQTmvwHZuq68T4W-98Uyv/view?usp=sharing">model_final.pth</a><br/>
 
 ### 2. Run requirements.txt 
 ### 3. Run the clientApp file and then route to different address for each prediction mentioned below.

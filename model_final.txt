@@ -1,1 +1,1 @@
-please download the model_final.pth : https://drive.google.com/file/d/1--tWzjhet-QHQTmvwHZuq68T4W-98Uyv/view?usp=sharing
+Download the model_final.pth from here : https://drive.google.com/file/d/1--tWzjhet-QHQTmvwHZuq68T4W-98Uyv/view?usp=sharing
